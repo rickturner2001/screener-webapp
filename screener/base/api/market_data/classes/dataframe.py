@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import numpy as np
 from pandas import DataFrame
-from base.api.market_data.classes.indicators import MovingAverages, inject_ichimoku, RSI, MACD, Bollinger, Stochastic
+from screener.base.api.market_data.classes.indicators import MovingAverages, inject_ichimoku, RSI, MACD, Bollinger, Stochastic
 
 
 @dataclass

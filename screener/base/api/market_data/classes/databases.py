@@ -1,6 +1,6 @@
 from pandas import read_sql, DataFrame
 import numpy as np
-from base.api.market_data.classes.fetchers import GeneralMarketDataFetcher
+from screener.base.api.market_data.classes.fetchers import GeneralMarketDataFetcher
 from cython import cfunc
 import json
 import sqlite3

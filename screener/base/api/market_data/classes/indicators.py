@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import Union, List
 import numpy as np
 from pandas import Series, DataFrame
-from base.api.market_data.classes.databases import SP500Database
+from screener.base.api.market_data.classes.databases import SP500Database
 
 
 # ============================================================

@@ -4,7 +4,7 @@ from typing import List
 from pandas import read_csv, DataFrame
 from pandas_datareader.yahoo.daily import YahooDailyReader
 from yfinance import download
-from base.api.market_data.config import file_path
+from screener.base.api.market_data.config import file_path
 import datetime
 
 today = datetime.date.today()

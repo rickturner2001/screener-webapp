@@ -1,6 +1,6 @@
-from classes.databases import SP500Database
-from config import db_path
-from database_functions import populate_sp500
+from screener.base.api.market_data.classes.databases import SP500Database
+from screener.base.api.market_data.config import db_path
+from screener.base.api.market_data.database_functions import populate_sp500
 
 
 def main():

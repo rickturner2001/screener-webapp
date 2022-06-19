@@ -1,9 +1,9 @@
 from pathlib import Path
 from typing import Union
-from base.api.market_data.classes.dataframe import EnhancedDataframe
-from base.api.market_data.classes.fetchers import GeneralMarketDataFetcher
-from base.api.market_data.classes.databases import SP500Database
-from base.api.market_data.config import db_path
+from screener.base.api.market_data.classes.dataframe import EnhancedDataframe
+from screener.base.api.market_data.classes.fetchers import GeneralMarketDataFetcher
+from screener.base.api.market_data.classes.databases import SP500Database
+from screener.base.api.market_data.config import db_path
 from cython import cfunc
 
 
