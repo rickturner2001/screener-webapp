@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="e1ae27d0-956b-4263-91cf-609fabb45eed" name="sp500.sqlite Mapping">
+      <data-sources db="34e0b49e-e1ee-4103-9f74-44221304940e" />
+    </mapping>
+  </component>
+</project>
